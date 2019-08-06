@@ -45,10 +45,10 @@ public class TrueZipUtilTest {
     public void testZipMerge() throws IOException {
         String zipFile1 = "../test-data/multizip/one.zip";
         String zipFile2 = "../test-data/multizip/two.zip";
-        TrueZipUtil instance = new TrueZipUtil();
+        // TrueZipUtil instance = new TrueZipUtil();
 
-        int zip1Count = instance.countFiles(zipFile1);
-        int zip2Count = instance.countFiles(zipFile2);
+        // int zip1Count = instance.countFiles(zipFile1);
+        // int zip2Count = instance.countFiles(zipFile2);
 
         TrueZipUtil.mergeTwoZips(zipFile1, zipFile2);
     }
